@@ -2,8 +2,6 @@
 
 ## Quality annotation of Headers in the corpus
 
-### Version 0.4
-
 Precision = TP / (TP + FP) = Correct Classified Headers / (Correct Classified Headers + Incorrect Classified Headers) 
 
 = 28 / (28+3) = 0.9
@@ -13,7 +11,7 @@ Recall = TP / (TP + FN) = Correct Classified Headers / (Correct Classified Heade
 = 28 / (28+11) = 0.72
 
 
-Reflection: 
-* The error for the precision in this case are related to the fact that one image is OCR:ed as text and thereby large text. This is why the algorithm claassifies these three lines as headers. 
+Reflection:
+* The false positives in this case are related to the fact that one image is OCR:ed as text and thereby large text. This is why the algorithm claassifies these three lines as headers. 
 
-* The error related to the Recall is beacuase this algorith misses page-headers that often are not larger than the regular text. 
+* The false negatives are beacause this algorith misses page-headers that often are equal in terms of size as the regular text.
