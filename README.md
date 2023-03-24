@@ -1,6 +1,8 @@
 # BLM-corpus
 
-## Quality annotation of Headres in the corpus
+## Quality annotation of Headers in the corpus
+
+### Version 0.4
 
 Precision = TP / (TP + FP) = Correct Classified Headers / (Correct Classified Headers + Incorrect Classified Headers) = 28 / (28+3) = 0.9
 
