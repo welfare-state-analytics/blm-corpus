@@ -22,3 +22,8 @@ Reflection:
 * Recall = TP/(TP+FN) = 38/(38+1) = **0.97**
 
 * F1 = 2TP/(2TP+FP+FN) = 76/(76+3+1) = **0.95**
+
+Reflection:
+* The false positives are still related to the image that is OCR:ed as text and thereby large text. This is why the algorithm claassifies these three lines as headers. 
+
+* The false negative is a Header that is just an integer, the algorithm at the moment excludes numbers as headers because of an issue that it was capturing page numbers as headers earlier. It can be fixed.
