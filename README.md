@@ -10,7 +10,7 @@
 
 = 28 / (28+11) = 0.72
 
-* F1 = 2 /times Precision Recall
+* F1 = 2TP / (1TP + FP + FN) = 
 
 
 Reflection:
