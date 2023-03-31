@@ -10,7 +10,7 @@
 
 = 28 / (28+11) = 0.72
 
-* F_1
+* F1 = 2 \times Precision Recall
 
 
 Reflection:
