@@ -2,9 +2,9 @@
 
 ## Quality annotation of Headers in the corpus (#1)
 
-* Precision = TP/(TP+FP) = Correct Classified Headers / (Correct Classified Headers + Incorrect Classified Headers) = 28/(28+3) = **0.9**
+* Precision = TP/(TP+FP) = Correct Classified Headers/(Correct Classified Headers+Incorrect Classified Headers) = 28/(28+3) = **0.9**
 
-* Recall = TP/(TP+FN) = Correct Classified Headers / (Correct Classified Headers + Incorrect Non-Classified Headers) = 28/(28+11) = **0.72**
+* Recall = TP/(TP+FN) = Correct Classified Headers/(Correct Classified Headers+Incorrect Non-Classified Headers) = 28/(28+11) = **0.72**
 
 * F1 = 2TP/(2TP+FP+FN) = 56/(56+3+11) = **0.8**
 
