@@ -21,8 +21,8 @@ Reflection:
 
 
 ## Quality annotation of Headers and Page Headers in the corpus (#2)
-* Precision = TP / (TP + FP) = 
+* Precision = TP / (TP + FP) = 38 / (38+3) = 0.93
 
-* Recall = TP / (TP + FN) = 
+* Recall = TP / (TP + FN) = 38 / (38+1) = 0.97
 
-* F1 = 2TP / (2TP + FP + FN) = 
+* F1 = 2TP / (2TP + FP + FN) = 76 / (76+3+1) = 0.95
