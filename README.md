@@ -19,6 +19,8 @@ This documentation contains the steps we have gone through to curate BLM.
 
 8) Subsequently, we created "articles" based on the classification of headers, assuming that a new article starts and ends with a "header." This allows for easier extraction of specific articles in the future and linking them to information available in data files, etc.
 
+9) Two .csv-files are created to store information extracted from the registers (usually published once a year) and table of contents of the issues in the corpus. All edition-ID's are represented at least once in each of the files, but in cases where the information (such as the registers for most of the editions) is not available, the corresponding columns in the files are left empty.
+
 
 
 ## Quality annotation of Headers in the corpus (#1)
